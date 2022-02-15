@@ -35,7 +35,7 @@ public class Cat {
 		int x=catX;
 		int y=catY;
 		// Draw the head
-		g2.setColor(Color.black);
+		g2.setColor(Color.orange);
 		g2.fillOval(x, y, HEAD_DIMENSION, HEAD_DIMENSION);
 		// Draw the eyes
 		g2.setColor(Color.green);
@@ -81,7 +81,7 @@ public class Cat {
 		}
 
 		// Add ears
-		g2.setColor(Color.LIGHT_GRAY);
+		g2.setColor(Color.black);
 		// Draw left side of left ear
 		x = catX + HEAD_DIMENSION/5;
 		x2 = x + EAR_SIZE/2;
