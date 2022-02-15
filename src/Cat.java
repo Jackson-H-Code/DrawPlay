@@ -5,16 +5,16 @@ import java.awt.geom.*;
 public class Cat {
 	// drawing constants are private - noone needs to know what we're doing
 	// pick a head dimension
-	private static final int HEAD_DIMENSION = 100;
+	private static final int HEAD_DIMENSION = 200;
 	// eyes will be about 1/4 from top of head and 1/4 from left
 	private static final int EYE_Y = HEAD_DIMENSION/4;
 	private static final int EYE_X = HEAD_DIMENSION/4;
 	private static final int EYE_SEPARATION = HEAD_DIMENSION/3;
 	// pick eye dimensions
-	private static final int EYE_HEIGHT = 20;
-	private static final int EYE_WIDTH = 10;
+	private static final int EYE_HEIGHT = 40;
+	private static final int EYE_WIDTH = 20;
 	// pick mouth height, width is based on head dimension
-	private static final int MOUTH_HEIGHT = 10;
+	private static final int MOUTH_HEIGHT = 20;
 	private static final int MOUTH_WIDTH = HEAD_DIMENSION/4;
 	// mouth starts about 40% from left edge of head
 	private static final int MOUTH_X = HEAD_DIMENSION/5 * 2;
@@ -22,8 +22,8 @@ public class Cat {
 	
 	// whiskers are about 1/4 the size of the head
 	private static final int WHISKER_LENGTH = HEAD_DIMENSION/4;
-	private static final int WHISKER_SLANT = 5;
-	private static final int NUM_WHISKERS = 3;
+	private static final int WHISKER_SLANT = 6;
+	private static final int NUM_WHISKERS = 5;
 	
 	// ears are about 1/5 the size of the head
 	private static final int EAR_SIZE = HEAD_DIMENSION/5;
